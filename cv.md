@@ -9,7 +9,9 @@
 * **Discord:** Mits(@romanmitskevich)
 ---
 ## **About Me:**
+I am a 3rd year student at the university and one day I realized that I want to know more. So I decided to join **RS School course** to gain knowledge in the field of front-end development. 
 
+One of my best qualities is that I can spend a lot of time doing what *interests me*. I also work *well in a team* and like to *learn a lot* of new things. I believe that the courses combined with my *perseverance* and other qualities will help me become a good developer!
 
 ---
 ## **Skills:**
