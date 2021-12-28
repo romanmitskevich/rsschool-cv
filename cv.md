@@ -20,3 +20,23 @@
 * Git, GitHub
 * IntelliJ IDEA, VS Code
 ---
+## **Code example:**
+```javascript
+function multiply(a, b){
+  return a * b;
+}
+```
+---
+## **Work experience:**
+Nothing... *yet!*
+
+---
+## **Education:**
+* **University:** Belarusian State University of Informatics and Radioelectronics
+   * **Speciality:** Artificial Intelligence(3 course)
+* **Courses:** 
+   * RS School Course **«JavaScript/Front-end. Stage 0»** (in progress...)
+---
+## **Languages:**
+* **Russian** - native
+* **English** - B1
