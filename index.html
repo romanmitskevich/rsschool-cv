@@ -5,11 +5,111 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>CV</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="icon" href="./assets/img/favicon.ico">
+   <title>Raman Mitskevich</title>
 </head>
 
 <body>
-   <div>CV</div>
+   <div class="container-box">
+      <header class="header">
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#about-id" class="nav-link">About</a></li>
+               <li class="nav-item"><a href="#skills-id" class="nav-link">Skills</a></li>
+               <li class="nav-item"><a href="#languages-id" class="nav-link">Languages</a></li>
+               <li class="nav-item"><a href="#education-id" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#code-example-id" class="nav-link">Code</a></li>
+               <li class="nav-item"><a href="#contacts-id" class="nav-link">Contacts</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <main class="main">
+         <div class="main-left">
+            <img class="photo" src="./assets/img/photo.jpg" alt="Photo" width="200" height="200">
+            <section class="profile" id="profile-id">
+               <h1>Raman Mitskevich</h1>
+               <h3>Future Front-End Developer</h3>
+            </section>
+            <section class="contacts" id="contacts-id">
+               <h2 class="h2-contacts">Contacts</h2>
+               <ul class="contacts-list">
+                  <li class="contacts-item"><span><img src="./assets/img/location.png" alt="Location" width="25"
+                           height="25"></span> Minsk, Belarus</li>
+                  <li class="contacts-item"><a href="mailto:roma.mitskevich@gmail.com"><span><img
+                              src="./assets/img/gmail.png" alt="E-mail" width="25" height="25"></span>
+                        roma.mitskevich@gmail.com</a></li>
+                  <li class="contacts-item"><a href="https://t.me/mitsromich"><span><img src="./assets/img/telegram.png"
+                              alt="Telegram" width="25" height="25"></span> t.me/mitsromich</a></li>
+                  <li class="contacts-item"><a href="https://github.com/romanmitskevich"><span><img
+                              src="./assets/img/github.png" alt="GitHub" width="25" height="25"></span>
+                        romanmitskevich</a></li>
+                  <li class="contacts-item"><span><img src="./assets/img/discord.png" alt="Discord" width="25"
+                           height="25"></span> Mits(@romanmitskevich)</li>
+               </ul>
+            </section>
+            <section class="skills" id="skills-id">
+               <h2 class="h2-skills">Skills</h2>
+               <ul class="skills-list">
+                  <li class="skills-item">C++</li>
+                  <li class="skills-item">Java</li>
+                  <li class="skills-item">JavaScript Basics</li>
+                  <li class="skills-item">HTML5 & CSS3</li>
+                  <li class="skills-item">Git, GitHub</li>
+                  <li class="skills-item">IntelliJ IDEA, VS Code</li>
+               </ul>
+            </section>
+            <section class="languages" id="languages-id">
+               <h2 class="h2-languages">Languages</h2>
+               <ul class="languages-list">
+                  <li class="languages-item">English - B1</li>
+                  <li class="languages-item">Russian - native</li>
+               </ul>
+            </section>
+         </div>
+
+         <div class="main-right">
+            <section class="about" id="about-id">
+               <h2 class="h2-about">About Me</h2>
+               <p>I am a 3rd year student at the university and one day I realized that I want to know more. So I
+                  decided to join RS School course to gain knowledge in the field of front-end development.</p>
+               <p>One of my best qualities is that I can spend a lot of time doing what interests me. I also work
+                  well in a team and like to learn a lot of new things. I believe that the courses combined with my
+                  perseverance and other qualities will help me become a good developer!</p>
+            </section>
+            <section class="education" id="education-id">
+               <h2 class="h2-education">Education</h2>
+               <p><img src="./assets/img/university.png" alt="University" width="25" height="25"><a
+                     href="https://www.bsuir.by/"><span> Belarusian
+                        State University of
+                        Informatics and Radioelectronics</span></a></p>
+               <p>Faculty of Information Technology and Management</p>
+               <p>Artificial Intelligence(3 course) speciality</p>
+               <p><img src="./assets/img/courses.png" alt="Courses" width="25" height="25"><span> Courses</span></p>
+               <p><a href="https://rs.school/js-stage0/"> RS School Course «JavaScript/Front-end. Stage 0» (in
+                     progress...)</a></p>
+            </section>
+            <section class="code-example" id="code-example-id">
+               <h2 class="h2-code">Code</h2>
+               <p>Task from Codewars during registration:</p>
+               <pre>
+                  <code class="code" id="code-id">
+   function multiply(a, b){
+      return a * b;
+   }
+                  </code>
+               </pre>
+            </section>
+         </div>
+      </main>
+
+      <footer class="footer">
+         <div class="footer-content">
+
+         </div>
+      </footer>
+   </div>
 </body>
 
 </html>
