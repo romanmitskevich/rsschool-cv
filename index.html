@@ -19,6 +19,7 @@
                <li class="nav-item"><a href="#skills-id" class="nav-link">Skills</a></li>
                <li class="nav-item"><a href="#languages-id" class="nav-link">Languages</a></li>
                <li class="nav-item"><a href="#education-id" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#projects-id" class="nav-link">Projects</a></li>
                <li class="nav-item"><a href="#code-example-id" class="nav-link">Code</a></li>
                <li class="nav-item"><a href="#contacts-id" class="nav-link">Contacts</a></li>
             </ul>
@@ -78,6 +79,7 @@
                   well in a team and like to learn a lot of new things. I believe that the courses combined with my
                   perseverance and other qualities will help me become a good developer!</p>
             </section>
+
             <section class="education" id="education-id">
                <h2 class="h2-education">Education</h2>
                <p><img src="./assets/img/university.png" alt="University" width="25" height="25"><a
@@ -87,16 +89,43 @@
                <p>Faculty of Information Technology and Management</p>
                <p>Artificial Intelligence(3 course) speciality</p>
                <p><img src="./assets/img/courses.png" alt="Courses" width="25" height="25"><span> Courses</span></p>
-               <p><a href="https://rs.school/js-stage0/"> RS School Course «JavaScript/Front-end. Stage 0» (in
+               <p><a href="https://rs.school/js-stage0/"> RS School Course «JavaScript/Front-end. Stage 0»</a></p>
+               <p><a href="https://rs.school/js/"> RS School Course «JavaScript/Front-end» (in
                      progress...)</a></p>
             </section>
+
+            <section class="projects" id="projects-id">
+               <h2 class="h2-projects">Projects</h2>
+               <div class="projects-container">
+                  <div class="projects-item">
+                     <img src="./assets/svg/camera.svg" alt="Portfolio camera" width="35" height="35">
+                     <a
+                        href="https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/Portfolio/">Portfolio</a>
+                  </div>
+                  <div class="projects-item">
+                     <img src="./assets/svg/bird.svg" alt="Bird" width="35" height="35">
+                     <a
+                        href="https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/eco-sounds/">Eco-sounds</a>
+                  </div>
+                  <div class="projects-item">
+                     <img src="./assets/svg/movie.svg" alt="Movie" width="35" height="35">
+                     <a href="https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/movie-app/">Movie
+                        app</a>
+                  </div>
+               </div>
+            </section>
+
             <section class="code-example" id="code-example-id">
                <h2 class="h2-code">Code</h2>
-               <p>Task from Codewars during registration:</p>
+               <p>Task: Is a number prime?</p>
                <pre>
                   <code class="code" id="code-id">
-   function multiply(a, b){
-      return a * b;
+   function isPrime(num) {
+      if (num &lt; 2) return false;
+      for (let index = 2; index &lt;= Math.sqrt(num); index++) {
+         if (num % index === 0) return false;
+      }
+      return true;
    }
                   </code>
                </pre>
