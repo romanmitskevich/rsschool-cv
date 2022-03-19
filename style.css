@@ -118,6 +118,10 @@ body {
    padding: 2px;
 }
 
+.contacts-item img {
+   margin: 4px 2px 0px;
+}
+
 .main-right h2 {
    font-variant: small-caps;
    padding-left: 5px;
@@ -177,4 +181,30 @@ a:hover {
 
 .main-right a:hover {
    color: var(--pink);
+}
+
+.projects-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin: 0px 40px;
+}
+
+.projects-item {
+   display: flex;
+   align-items: center;
+   margin: 5px 0px;
+}
+
+.projects-item img {
+   display: block;
+   filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(19%) hue-rotate(289deg) brightness(109%)
+      contrast(104%);
+}
+
+.projects-item a {
+   display: block;
+   margin-top: 5px;
+   margin-left: 10px;
+   font-size: 20px;
 }
