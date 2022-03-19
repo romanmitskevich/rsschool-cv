@@ -20,7 +20,7 @@ One of my best qualities is that I can spend a lot of time doing what *interests
 ## **Skills:**
 * C++
 * Java
-* JavaScript Basics
+* JavaScript
 * HTML & CSS
 * Git, GitHub
 * IntelliJ IDEA, VS Code
@@ -28,11 +28,23 @@ One of my best qualities is that I can spend a lot of time doing what *interests
 ---
 
 ## **Code example:**
+**Is a number prime?**
 ```javascript
-function multiply(a, b){
-  return a * b;
+function isPrime(num) {
+  if (num < 2) return false;
+  for (let index = 2; index <= Math.sqrt(num); index++) {
+    if (num % index === 0) return false;
+  }
+  return true;
 }
 ```
+
+---
+
+## **Projects:**
+* **[Portfolio](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/Portfolio/)**
+* **[Eco-sounds](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/eco-sounds/)**
+* **[Movie-app](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/movie-app/)**
 
 ---
 
@@ -45,7 +57,8 @@ Nothing... *yet!*
 * **University:** Belarusian State University of Informatics and Radioelectronics
    * **Speciality:** Artificial Intelligence(3 course)
 * **Courses:** 
-   * RS School Course **«JavaScript/Front-end. Stage 0»** (in progress...)
+   * RS School Course **«JavaScript/Front-end. Stage 0»**
+   * RS School Course **«JavaScript/Front-end»** (in progress...)
 
 ---
 
