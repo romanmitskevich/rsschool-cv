@@ -40,6 +40,7 @@ function isPrime(num) {
 ```
 
 ---
+
 ## **Projects:**
 * **[Portfolio](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/Portfolio/)**
 * **[Eco-sounds](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/eco-sounds/)**
