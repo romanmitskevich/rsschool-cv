@@ -11,7 +11,7 @@
 ---
 
 ## **About Me:**
-I am a 3rd year student at the university and one day I realized that I want to know more. So I decided to join **RS School course** to gain knowledge in the field of front-end development. 
+I am a 4th year student at the university and one day I realized that I want to know more. So I decided to join **RS School course** to gain knowledge in the field of front-end development. 
 
 One of my best qualities is that I can spend a lot of time doing what *interests me*. I also work *well in a team* and like to *learn a lot* of new things. I believe that the courses combined with my *perseverance* and other qualities will help me become a good developer!
 
@@ -45,6 +45,9 @@ function isPrime(num) {
 * **[Portfolio](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/Portfolio/)**
 * **[Eco-sounds](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/eco-sounds/)**
 * **[Movie-app](https://rolling-scopes-school.github.io/romanmitskevich-JSFEPRESCHOOL/movie-app/)**
+* **[Shelter](https://rolling-scopes-school.github.io/romanmitskevich-JSFE2022Q1/shelter/pages/main/index.html)**
+* **[Virtual keyboard](https://romanmitskevich.github.io/virtual-keyboard/virtual-keyboard/)**
+* **[CSS Mem Slider](https://romanmitskevich.github.io/cssMemSlider/cssMemSlider/index.html)**
 
 ---
 
@@ -55,7 +58,7 @@ Nothing... *yet!*
 
 ## **Education:**
 * **University:** Belarusian State University of Informatics and Radioelectronics
-   * **Speciality:** Artificial Intelligence(3 course)
+   * **Speciality:** Artificial Intelligence(4 course)
 * **Courses:** 
    * RS School Course **«JavaScript/Front-end. Stage 0»**
    * RS School Course **«JavaScript/Front-end»** (in progress...)
