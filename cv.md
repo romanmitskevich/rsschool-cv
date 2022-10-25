@@ -61,10 +61,10 @@ Nothing... *yet!*
    * **Speciality:** Artificial Intelligence(4 course)
 * **Courses:** 
    * RS School Course **«JavaScript/Front-end. Stage 0»**
-   * RS School Course **«JavaScript/Front-end»** (in progress...)
+   * RS School Course **«JavaScript/Front-end»** (Not finished)
 
 ---
 
 ## **Languages:**
 * **Russian** - native
-* **English** - B1
+* **English** - A2/B1
